@@ -5,7 +5,5 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.6, RVM: ruby-1.9.3-p551 [leaddyno-app]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="colorator (v0.1, RVM: ruby-1.9.3-p551 [leaddyno-app]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.0.0, RVM: ruby-1.9.3-p551 [leaddyno-app]) [gem]" level="application" />
   </component>
 </module>
