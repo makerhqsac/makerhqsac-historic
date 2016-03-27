@@ -10,15 +10,20 @@
 
 /* Basic */
 
+	#hq {
+		font-weight: 800;
+		color: #22ae22;
+	}
+
 	body {
 		background: #fff;
 	}
 
 	body, input, select, textarea {
 		color: #555f66;
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: 'Alegreya Sans', sans-serif;
 		font-size: 14pt;
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1.75em;
 	}
 
@@ -46,7 +51,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #666f77;
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -845,7 +850,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 4em 0 4em 0;
 	}
 
 		.wrapper.style1 {
@@ -905,7 +910,7 @@
 
 		#header h1 {
 			color: #666f77;
-			font-weight: 500;
+			font-weight: 700;
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -986,7 +991,7 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/banner.jpg");
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/banner.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;

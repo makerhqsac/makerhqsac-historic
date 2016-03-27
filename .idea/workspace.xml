@@ -2,319 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468002cd-01e9-4edd-9ae0-3cf5b61875d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_banner.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_config_dev.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/authors.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/language.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/language_de.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/network.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/services.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/socialmedia.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/gallery.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_all_frontmatter.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_simple.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_with_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_with_table_of_contents.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/page_without_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/post_with_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/post_without_image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_drafts/video.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/__INSTRUCTIONS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_breadcrumb.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_comments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_favicon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_footer_scripts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_frontpage-widget.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_google_search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_improve_content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_masthead.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_meta_information.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_pagination.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/_sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/alert" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/gallery" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/list-collection" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/list-posts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/next-previous-post-in-category" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/sitemap_collection.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/compress.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/frontpage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page-fullwidth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/redirect.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/xml-style.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-07-09-post-left-sidebar.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-07-10-breadcrumb.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-07-10-page.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-07-10-post-right-sidebar.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-08-19-page-fullwidth.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-09-10-portfolio.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-09-13-grid.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-09-14-video.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-09-15-gallery.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-10-08-header-image-pattern.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-10-09-header-full-width-image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-10-09-header-image-color.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2014-10-09-header-logo-only.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2015-02-10-header-with-text.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2015-03-12-no-header-but-image.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2015-08-11-no-header.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2015-08-15-comments.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2015-08-16-typography.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/design/2015-10-15-mediaelement_js.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_01_settings_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_02_settings_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_03_settings_mixins_media_queries.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_04_settings_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_05_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_06_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_07_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_09_elements.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_11_syntax-highlighting.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_functions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_accordion.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_alert-boxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_block-grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_breadcrumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_button-groups.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_clearing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_dropdown-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_flex-video.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_icon-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_inline-lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_joyride.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_keystrokes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_labels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_magellan.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_offcanvas.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_orbit.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_pagination.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_panels.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_pricing-tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_progress-bars.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_range-slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_reveal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_side-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_split-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_sub-nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_switches.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_thumbs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_toolbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_tooltips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_top-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/foundation-components/_visibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/atom.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/rss.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/styles_feeling_responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/.fontcustom-manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontcustom.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/iconfont-preview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/iconfont.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/.fontcustom-manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/archive.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/browser.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/camera.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/check.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/chevron-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/chevron-left.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/chevron-right.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/chevron-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/circle-with-cross.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/circle-with-minus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/circle-with-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/code.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/cog.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/dropbox.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/edit.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/export.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/eye.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/feather.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/github.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/globe.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/heart-outlined.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/heart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/home.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/instagram.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/lab-flask.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/leaf.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/linkedin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/message.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/mic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/network.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/paper-plane.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/pinterest.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/price-tag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/rocket.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/rss.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/soundcloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/star-outlined.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/star.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/thumbs-down.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/thumbs-up.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/tree.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/tumblr.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/upload-to-cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/video.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/vimeo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/warning.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/xing.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/svg-files-for-custom-font/youtube.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-114x114-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-120x120-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-144x144-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-152x152-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-180x180-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-72x72-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-76x76-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/msapplication_tileimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/touch-icon-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/javascript.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/modernizr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/DO NOT CHANGE THESE FILES. USE -src- FOLDER.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/bigplay.fw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/bigplay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/bigplay.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/controls-ted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/controls-wmp-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/controls-wmp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/controls.fw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/controls.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/flashmediaelement-cdn.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/flashmediaelement-debug.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/flashmediaelement.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/jumpforward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelement-and-player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelement-and-player.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelement.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelementplayer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelementplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelementplayer.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mediaelementplayer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/mejs-skins.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/silverlightmediaelement.xap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/mediaelement_js/skipback.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/xslt/atom.xslt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/xslt/rss.xslt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/archive.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-1-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-2-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-3-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-4-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-5-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-6-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-7-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-8-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/gallery-example-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header-bus-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header-bus.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_drop.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_homepage_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_roadmap_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_roadmap_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_typewriter.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_2-970x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header_unsplash_leaf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage_typography-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/homepage_typography.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mediaplayer_js-home.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mediaplayer_js-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mediaplayer_js-title.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pattern_concrete.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/presentation-feeling-responsive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/promo-video-start.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/start-video-feeling-responsive-302x182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/typewriter-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/unsplash_9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/unsplash_brooklyn-bridge-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/unsplash_brooklyn-bridge_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/unsplash_eagle.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/video-feeling-responsive-1280x720.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/video-feeling-responsive-tutorial-frontpage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/webdesign_screenshot_jcorneille.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/webdesign_screenshot_nixdorf.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/webdesign_screenshot_phlow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/webdesign_screenshot_schriefer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/webdesign_screenshot_stilwandel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/webdesign_screenshot_tarnkappe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/widget-1-302x182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/widget-github-303x182.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/contact.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/design.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/documentation.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/getting-started.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/headers.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/info.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pages-root-folder/404.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pages-root-folder/atom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pages-root-folder/feed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pages-root-folder/humans.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pages-root-folder/index.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pages-root-folder/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pages-root-folder/sitemap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/redirected_page.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/roadmap.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/search.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner.jpg" afterPath="$PROJECT_DIR$/images/banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-01-30-Lorem.markdown" afterPath="$PROJECT_DIR$/_posts/2015-01-30-Lorem.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-02-17-Curabitur.markdown" afterPath="$PROJECT_DIR$/_posts/2015-02-17-Curabitur.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/makerhqsac.github.io.iml" afterPath="$PROJECT_DIR$/.idea/makerhqsac.github.io.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/landing-page.html" afterPath="$PROJECT_DIR$/_layouts/landing-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="makerhqsac.github.io.iws" />
@@ -336,51 +33,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1459026758997" expanded="true" signature="21:190" placeholder="..." />
-                <marker date="1459026758997" expanded="true" signature="73:181" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-28.0">
+              <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
+      <file leaf-file-name="2984347029_6b8fcf7057_o.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2984347029_6b8fcf7057_o.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-02-17-Curabitur.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-02-17-Curabitur.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state vertical-scroll-proportion="-1.2857143">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left-sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/left-sidebar.html">
+      <file leaf-file-name="2015-01-30-Lorem.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-01-30-Lorem.markdown">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.2857143">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="2015-02-06-welcome-to-jekyll.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-02-06-welcome-to-jekyll.markdown">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -389,11 +80,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing-page.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_layouts/landing-page.html">
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_site/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23326133">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state vertical-scroll-proportion="36.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="14" column="83" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.206897">
+              <caret line="993" column="74" selection-start-line="993" selection-start-column="74" selection-end-line="993" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -402,18 +113,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.3333334">
+              <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -422,8 +123,8 @@
       <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.666667">
+              <caret line="13" column="116" selection-start-line="13" selection-start-column="116" selection-end-line="13" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -440,7 +141,14 @@
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/css/style-xlarge.css" />
         <option value="$PROJECT_DIR$/_layouts/landing-page.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_posts/2015-02-17-Curabitur.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2015-01-30-Lorem.markdown" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
   </component>
@@ -508,7 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,25 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="makerhqsac.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="makerhqsac.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -732,6 +422,7 @@
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -741,7 +432,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -771,8 +461,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1459026758997" expanded="true" signature="21:190" placeholder="..." />
-            <marker date="1459026758997" expanded="true" signature="73:181" placeholder="..." />
+            <marker date="1459026758997" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1459026758997" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -796,20 +486,12 @@
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/left-sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -840,47 +522,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1459026758997" expanded="true" signature="21:190" placeholder="..." />
-            <marker date="1459026758997" expanded="true" signature="73:181" placeholder="..." />
+            <marker date="1459026758997" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1459026758997" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/css/style-medium.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-large.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-xlarge.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/landing-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23326133">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.363636">
+          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="36.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-02-06-welcome-to-jekyll.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-02-17-Curabitur.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2857143">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-01-30-Lorem.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2857143">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.206897">
+          <caret line="993" column="74" selection-start-line="993" selection-start-column="74" selection-end-line="993" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="13" column="116" selection-start-line="13" selection-start-column="116" selection-end-line="13" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.0">
+          <caret line="42" column="107" selection-start-line="42" selection-start-column="107" selection-end-line="42" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2984347029_6b8fcf7057_o.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
