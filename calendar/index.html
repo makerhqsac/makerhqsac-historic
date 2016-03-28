@@ -3,21 +3,21 @@ layout: default
 ---
 
 <script type="text/javascript">
-$(document).ready(function() {
-    $('#calendar').fullCalendar({
-        googleCalendarApiKey: 'AIzaSyAHG5F-oSGcWljW7hQxarCV89b8ItAaW5Q',
-        events: {
-            googleCalendarId: 'makerhq.org_cgmc1jl3h73rirjejo1n8ok4e0@group.calendar.google.com'
-        },
-        eventClick:  function(event, jsEvent, view) {
-             //set the values and open the modal
-             $("#eventInfo").html(event.description);
-             $("#eventLink").attr('href', event.url);
-             $("#eventContent").dialog({ modal: true, title: event.title });
-             return false;
-         }
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            googleCalendarApiKey: 'AIzaSyAHG5F-oSGcWljW7hQxarCV89b8ItAaW5Q',
+            events: {
+                googleCalendarId: 'makerhq.org_cgmc1jl3h73rirjejo1n8ok4e0@group.calendar.google.com'
+            },
+            eventClick:  function(event, jsEvent, view) {
+                //set the values and open the modal
+                $("#eventInfo").html(event.description);
+                $("#eventLink").attr('href', event.url);
+                $("#eventContent").dialog({ modal: true, title: event.title });
+                return false;
+            }
+        });
     });
-});
 </script>
 
 <!-- Main -->
@@ -31,11 +31,11 @@ $(document).ready(function() {
             <div class="8u">
                 <section>
                     <h2>Events and Classes Calendar</h2>
-		    <div id="calendar"></div>
-<div id="eventContent" title="Event Details">
-    <div id="eventInfo"></div>
-    <p><strong><a id="eventLink" target="_blank">Read More</a></strong></p>
-</div>
+                    <div id="calendar"></div>
+                    <div id="eventContent" title="Event Details" style="display: none;">
+                        <div id="eventInfo"></div>
+                        <p><strong><a id="eventLink" target="_blank">Read More</a></strong></p>
+                    </div>
                 </section>
             </div>
             <div class="4u">
