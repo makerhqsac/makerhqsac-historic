@@ -10,6 +10,12 @@
 
 /* Basic */
 
+
+#landing-back {
+	border-radius: 7px;
+	padding:7px;
+	background-color:rgba(0, 0, 0, 0.58);
+}
 	#hq {
 		font-weight: 800;
 		color: #22ae22;
@@ -28,7 +34,7 @@
 	}
 
 	a {
-		color: #629DD1;
+		color: #22ae22;
 		text-decoration: underline;
 	}
 
@@ -256,8 +262,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #629DD1;
-			box-shadow: 0 0 0 1px #629DD1;
+			border-color: #22ae22;
+			box-shadow: 0 0 0 1px #22ae22;
 		}
 
 	.select-wrapper {
@@ -368,8 +374,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #629DD1;
-			box-shadow: 0 0 0 1px #629DD1;
+			border-color: #22ae22;
+			box-shadow: 0 0 0 1px #22ae22;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -451,7 +457,7 @@
 			display: inline-block;
 			margin: 0 0 1.25em 0;
 			color: #ffffff;
-			background: #629DD1;
+			background: #22ae22;
 			width: 3em;
 			height: 3em;
 			font-size: 2em;
@@ -815,7 +821,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #629DD1;
+			background-color: #22ae22;
 			color: #ffffff !important;
 		}
 
@@ -823,14 +829,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #76a9d7;
+				background-color: #21c921;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #4e91cb;
+				background-color: #22ae22;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -958,7 +964,7 @@
 					}
 
 						#header nav > ul > li a:hover {
-							color: #629DD1;
+							color: #22ae22;
 						}
 
 					#header nav > ul > li:first-child {
@@ -991,7 +997,7 @@
 
 	#banner {
 		background-color: #666666;
-		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/banner.jpg");
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/banner.png");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
