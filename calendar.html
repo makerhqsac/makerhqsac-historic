@@ -2,6 +2,34 @@
 layout: default
 ---
 
+<script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<script src="{{ site.baseurl }}/js/moment.min.js"></script>
+<script src="{{ site.baseurl }}/js/fullcalendar.min.js"></script>
+<script src="{{ site.baseurl }}/js/gcal.js"></script>
+<script src="{{ site.baseurl }}/js/lang-all.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/jquery-ui.min.js" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/fullcalendar.min.css" />
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#calendar').fullCalendar({
+            googleCalendarApiKey: 'AIzaSyAHG5F-oSGcWljW7hQxarCV89b8ItAaW5Q',
+            events: {
+                googleCalendarId: 'makerhq.org_cgmc1jl3h73rirjejo1n8ok4e0@group.calendar.google.com'
+            },
+            eventClick:  function(event, jsEvent, view) {
+                //set the values and open the modal
+                $("#eventInfo").html(event.description);
+                $("#eventLink").attr('href', event.url);
+                $("#eventContent").dialog({ modal: true, title: event.title });
+                return false;
+            }
+        });
+    });
+</script>
+
 <!-- Main -->
 <section id="main" class="wrapper style1">
     <header class="major">
@@ -13,7 +41,11 @@ layout: default
             <div class="8u">
                 <section>
                     <h2>Events and Classes Calendar</h2>
-                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=makerhq.org_cgmc1jl3h73rirjejo1n8ok4e0%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    <div id="calendar"></div>
+                    <div id="eventContent" title="Event Details" style="display: none;">
+                        <div id="eventInfo"></div>
+                        <p><strong><a id="eventLink" target="_blank">Read More</a></strong></p>
+                    </div>
                 </section>
             </div>
             <div class="4u">
@@ -25,8 +57,8 @@ layout: default
                 <hr />
                 <section>
                     <h3>Interested in teaching at Maker<span id="hq">HQ</span>??</h3>
-                    <p>We're always on the lookout for good teachers in the Maker arts. <a href="/contact.html">Contact us</a> about teaching at our space and we'll be glad to discuss the opportunities and availability of classes at MakerHQ!</p>
-                    <p>Have feedback on our classes? As always, we'd <a href="/contact.html">love to hear from you!</a></p>
+                    <p>We're always on the lookout for good teachers in the Maker arts. <a href="/contact">Contact us</a> about teaching at our space and we'll be glad to discuss the opportunities and availability of classes at MakerHQ!</p>
+                    <p>Have feedback on our classes? As always, we'd <a href="/contact">love to hear from you!</a></p>
                 </section>
                 <hr />
 <!--                <section>
