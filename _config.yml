@@ -12,3 +12,6 @@ github_username:  makerhqsac
 
 # Build settings
 markdown: kramdown
+
+# Ignore non-website content
+exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE.txt', 'CNAME']
