@@ -2,7 +2,7 @@
 layout: post
 title: "Hello, World. We are MakerHQ."
 ---
-<img src="{{ site.baseurl }}/images/makerhq_logo_square.png" class="fit image">
+<img src="{{ site.baseurl }}/images/makerhq_logo_square.png" class="image" width="512" height="512" style="margin: 0 auto; display: block;">
 <span id="hq">N</span>estled in a small space on a corner near the freeway in Sacramento, California, our space is just starting out its life in the community.
 
 This space started as an idea among a group who sees the power of technology and <a href="https://en.wikipedia.org/wiki/Maker_culture">the Maker movement</a> to come together and create wonderful things. We wanted to create a space where like minded individuals could push the limits in our fields of interest, yet also introduce fresh minds to the possibilities at their fingertips by providing resources and a community to come to in their own education.
