@@ -2,39 +2,68 @@
 layout: landing-page
 ---
 
+
+<script type="text/javascript">
+
+	var CALENDAR_ID = "makerhq.org_cgmc1jl3h73rirjejo1n8ok4e0@group.calendar.google.com";
+	var GOOGLE_CAL_KEY = "AIzaSyBGfW0JBJ3o8cldJqTHE893XqlaHCKuuNg";
+	var MAX_RESULTS = 3;
+
+	$(function() {
+		$.getJSON("https://www.googleapis.com/calendar/v3/calendars/"+CALENDAR_ID+"/events?key="+GOOGLE_CAL_KEY+"&orderBy=startTime&singleEvents=true&maxResults="+MAX_RESULTS, function(r) {
+			if (r.items.length <= 0) {
+				$('#no-events').removeClass('hide');
+			} else {
+				for (var i = 0; i < r.items.length; i++) {
+					var item = r.items[i];
+					var start = new Date(item.start.dateTime);
+					console.dir(item);
+					$('#nextup'+i).removeClass('hide');
+					$('#nextup'+i+' .event-date').html(start.toLocaleString());
+					$('#nextup'+i+' .event-title').html(item.summary);
+//					$('#nextup'+i+' .event-body').html(item.description);
+				}
+			}
+		});
+	});
+</script>
+
 <!-- One -->
 <section id="one" class="wrapper style1">
 	<header class="major">
-		<h2>Going on at Maker<span id="hq">HQ</span></h2>
-		<p>Coming Soon: Events happening this week.</p>
+		<h2>Next Up At Maker<span id="hq">HQ</span></h2>
 	</header>
-	<!--
-    <div class="container">
-        <div class="row">
-            <div class="4u">
-                <section class="special box">
-                    <i class="icon fa-area-chart major"></i>
-                    <h3>Check out our classes!</h3>
-                    <p>Introduction to Microcontrollers, 3D Printing Concepts, Printed Circuitboard Fundamentals, and many more!</p>
-                </section>
-            </div>
-            <div class="4u">
-                <section class="special box">
-                    <i class="icon fa-refresh major"></i>
-                    <h3>Events at the space!</h3>
-                    <p>Open to the public! Join us for events such as the Open Hardware meetup talks, demo nights, second Saturday open house!</p>
-                </section>
-            </div>
-            <div class="4u">
-                <section class="special box">
-                    <i class="icon fa-cog major"></i>
-                    <h3>Come visit us!</h3>
-                    <p>Interested in touring our space? Visit us on Tuesdays and Thursday evenings at 6pm to see the space and learn more!</p>
-                </section>
-            </div>
-        </div>
-    </div>
-    -->
+	<div class="container">
+		<div class="row">
+			<div id="no-events" class="12u hide">
+				<p class="align-center">No upcoming events. Check back soon!</p>
+			</div>
+			<div class="4u">
+				<section id="nextup0" class="special box hide">
+					<i class="icon fa-calendar major"></i>
+					<h4 class="event-date"></h4>
+					<a href="/calendar"><h5 class="event-title"></h5></a>
+					<p class="event-body"></p>
+				</section>
+			</div>
+			<div class="4u">
+				<section id="nextup1" class="special box hide">
+					<i class="icon fa-calendar major"></i>
+					<h4 class="event-date"></h4>
+					<a href="/calendar"><h5 class="event-title"></h5></a>
+					<p class="event-body"></p>
+				</section>
+			</div>
+			<div class="4u">
+				<section id="nextup2" class="special box hide">
+					<i class="icon fa-calendar major"></i>
+					<h4 class="event-date"></h4>
+					<a href="/calendar"><h5 class="event-title"></h5></a>
+					<p class="event-body"></p>
+				</section>
+			</div>
+		</div>
+	</div>
 </section>
 
 <!-- Two -->
