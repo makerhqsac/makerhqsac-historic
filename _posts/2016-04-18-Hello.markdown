@@ -9,7 +9,7 @@ This space started as an idea among a group who sees the power of technology and
 
 We want to be much more than a repository of tools. We want to prove that there are endless opportunities to learn something new, refine existing skills, or gain expertise. We want to create the environment to bounce ideas off one another, working towards that spark of innovation that's able to ignite change. We want to tap into the fun, creative side of the hard sciences, that reminds us that not everything has to be purely functional.
 
-Come join us, as we grow and change. Join our newsletter below to get email updates of what's going on with us. You can say hi to us in our <a href="http://community.makerhq.org">Community Forum</a> and weigh in on any topic. If you're in the area, please <a href="{{ site.baseurl }}/contact-us">stop by</a> (though, specifically email us if you'd like a tour!). Finally, if you want to become part of the space, consider <a href="{{ site.baseurl }}/join">becoming a member</a>.
+Come join us, as we grow and change. Join our newsletter below to get email updates of what's going on with us. You can say hi to us in our <a href="http://community.makerhq.org">Community Forum</a> and weigh in on any topic. If you're in the area, please <a href="{{ site.baseurl }}/contact-us">stop by</a> (though, specifically email us if you'd like a tour!). Finally, if you want to become part of the space, consider <a href="https://billing.makerhq.org/join">becoming a member</a>.
 
 Questions, comments, concerns? <a href="http://community.makerhq.org/t/hello-world-we-are-maker-hq/">Discuss this post on our forum.</a>
 

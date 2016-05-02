@@ -641,6 +641,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	ul.nobullets {
+		list-style: none inside none;
+	}
+
 /* Table */
 
 	.table-wrapper {
