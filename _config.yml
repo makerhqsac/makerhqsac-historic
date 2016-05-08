@@ -1,10 +1,7 @@
 # Site settings
 title: MakerHQ Sacramento - Collaborative Makerspace
 email: info@makerhq.org
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "MakerHQ is a non-profit, collaborative space for Makers in Sacramento, California focused on project based learning in a variety of the maker arts. Support us by becoming a member or join us at any of our open events!"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://makerhq.org" # the base hostname & protocol for your site
 twitter_username: makerhqsac
