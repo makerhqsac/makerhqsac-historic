@@ -3,7 +3,7 @@ layout: post
 title: "MakerHQ iPhone6 Case"
 ---
 If anyone wants to travel in style with a MakerHQ iphone 6 case, here is one you can print yourself!
-I printed mine with [PolyMAX PLA](http://www.polymaker.com/shop/polymax/), which is a filament that combines the strength and non-brittleness of PLA with the ease
+I printed mine with [PolyMAX PLA](http://www.polymaker.com/shop/polymax/), which is a filament that combines the strength and non-brittleness of ABS with the ease
  of printing PLA. I am not sure how a regular PLA one would turn out, but feel free to give it a try!
 
 
