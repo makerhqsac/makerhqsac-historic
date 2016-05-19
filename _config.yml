@@ -3,7 +3,7 @@ title: MakerHQ Sacramento - Collaborative Makerspace
 email: info@makerhq.org
 description: "MakerHQ is a non-profit, collaborative space for Makers in Sacramento, California focused on project based learning in a variety of the maker arts. Support us by becoming a member or join us at any of our open events!"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://makerhq.org" # the base hostname & protocol for your site
+url: "http://www.makerhq.org" # the base hostname & protocol for your site
 twitter_username: makerhqsac
 github_username:  makerhqsac
 
