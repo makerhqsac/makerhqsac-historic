@@ -18,8 +18,8 @@
     <meta property="og:title"              content="MakerHQ Sacramento - Collaborative Makerspace" />
     <meta property="og:description"        content="MakerHQ is a non-profit, collaborative space for Makers in Sacramento, California focused on project based learning in a variety of the maker arts. Support us by becoming a member or join us at any of our open events!" />
     <meta property="og:image"              content="http://www.makerhq.org/images/facebook_og_img.png" />
-    <meta property="og:image:width"              content="1024" />
-    <meta property="og:image:height"              content="1024" />
+    <meta property="og:image:width"              content="1200" />
+    <meta property="og:image:height"              content="630" />
 
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900' rel='stylesheet' type='text/css'>
@@ -85,8 +85,10 @@
 	var GOOGLE_CAL_KEY = "AIzaSyBGfW0JBJ3o8cldJqTHE893XqlaHCKuuNg";
 	var MAX_RESULTS = 3;
 
+	var NOW = (new Date()).toISOString();
+
 	$(function() {
-		$.getJSON("https://www.googleapis.com/calendar/v3/calendars/"+CALENDAR_ID+"/events?key="+GOOGLE_CAL_KEY+"&orderBy=startTime&singleEvents=true&maxResults="+MAX_RESULTS, function(r) {
+		$.getJSON("https://www.googleapis.com/calendar/v3/calendars/"+CALENDAR_ID+"/events?key="+GOOGLE_CAL_KEY+"&orderBy=startTime&singleEvents=true&maxResults="+MAX_RESULTS+"&timeMin="+NOW, function(r) {
 			if (r.items.length <= 0) {
 				$('#no-events').removeClass('hide');
 			} else {
