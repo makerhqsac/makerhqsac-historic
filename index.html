@@ -9,8 +9,10 @@ layout: landing-page
 	var GOOGLE_CAL_KEY = "AIzaSyBGfW0JBJ3o8cldJqTHE893XqlaHCKuuNg";
 	var MAX_RESULTS = 3;
 
+	var NOW = (new Date()).toISOString();
+
 	$(function() {
-		$.getJSON("https://www.googleapis.com/calendar/v3/calendars/"+CALENDAR_ID+"/events?key="+GOOGLE_CAL_KEY+"&orderBy=startTime&singleEvents=true&maxResults="+MAX_RESULTS, function(r) {
+		$.getJSON("https://www.googleapis.com/calendar/v3/calendars/"+CALENDAR_ID+"/events?key="+GOOGLE_CAL_KEY+"&orderBy=startTime&singleEvents=true&maxResults="+MAX_RESULTS+"&timeMin="+NOW, function(r) {
 			if (r.items.length <= 0) {
 				$('#no-events').removeClass('hide');
 			} else {

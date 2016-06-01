@@ -9,6 +9,8 @@ description: MakerHQ events calendar shows what meetups, classes, builds, and co
 <script src="{{ site.baseurl }}/js/fullcalendar.min.js"></script>
 <script src="{{ site.baseurl }}/js/gcal.js"></script>
 <script src="{{ site.baseurl }}/js/lang-all.js"></script>
+<script src="{{ site.baseurl }}/js/linkify.min.js"></script>
+<script src="{{ site.baseurl }}/js/linkify-html.min.js"></script>
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/jquery-ui.min.js" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css" />
@@ -22,13 +24,24 @@ description: MakerHQ events calendar shows what meetups, classes, builds, and co
             },
             eventClick:  function(event, jsEvent, view) {
                 //set the values and open the modal
-                $("#eventInfo").html(event.description);
+                $("#eventInfo").html(linkifyHtml(textToHTML(event.description)));
                 $("#eventLink").attr('href', event.url);
-                $("#eventContent").dialog({ modal: true, title: event.title });
+                $("#eventContent").dialog({ modal: true, title: event.title, minWidth: 800, minHeight: 400 });
                 return false;
             }
         });
     });
+
+    function textToHTML(text) {
+        return ((text || "") + "")  // make sure it is a string;
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/\t/g, "    ")
+                .replace(/ /g, "&#8203;&nbsp;&#8203;")
+                .replace(/\r\n|\r|\n/g, "<br />");
+    }
+
 </script>
 
 <!-- Main -->
@@ -45,7 +58,7 @@ description: MakerHQ events calendar shows what meetups, classes, builds, and co
                     <div id="calendar"></div>
                     <div id="eventContent" title="Event Details" style="display: none;">
                         <div id="eventInfo"></div>
-                        <p><strong><a id="eventLink" target="_blank">Read More</a></strong></p>
+                        <p style="margin-top: 15px;"><strong><a id="eventLink" target="_blank">Read More</a></strong></p>
                     </div>
                 </section>
             </div>
