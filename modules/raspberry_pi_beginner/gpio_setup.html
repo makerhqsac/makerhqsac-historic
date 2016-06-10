@@ -1,0 +1,49 @@
+---
+title: Raspberry Pi Beginner Module
+layout: default
+description: MakerHQ has a module box that includes a raspberry pi and all of the tools needed to get up and running. This is the guide for those tools
+---
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>Getting Started with the <span style="color:red">Raspberry Pi</span></h2>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="12u skel-cell-important">
+                <section>
+                    <h2>A Self Learning Guide to the Raspberry Pi</h2>
+                    <img src="/images/raspberry-pi-logo.png" style="float:right;width:15%;height:15%">
+
+                    <h2>Working with GPIO Pins and a PIR Sensor</h2>
+                    <h4>Set up the Hardware</h4>
+                    <ul><li>Take out the six Male to Female jumper wires, the PIR sensor, and the solderless breadboard from the box and set next to the Pi.</li>
+                    <li>Start by connecting the Raspberry Pi GPIO pins to the solderless breadboard:<ul style="margin-bottom:0px">
+                    <li>For the first wire, connect the female wire end to Pin 2 (5v DC Power) and the male end to the + column on the far right of the solderless breadboard</li>
+                        <li>For the second wire, connect the female wire end to Pin 6 (Ground) and the male end to the - column on the far right of the solderless breadboard (right next to the first wire!)</li>
+                        <li>For the third wire, connect the female end to Pin 40 (GPIO 21) and connect the male end to row 30, column j of the breadboard.</li></ul></li>
+                        <img src="/images/modules/raspberry_pi_beginner/wiring_to_pi.jpg" width="40%" style="float:right">
+                        <li>Now, let’s connect the pins on the PIR sensor to our solderless breadboard<ul>
+                        <li>For the first wire, connect the female end of the wire to the pin labeled VCC and the male end of the wire to the + column on the far right of the solderless breadboard (above the wire connected to the Pi’s 5v pin).</li>
+                        <li>For the second wire, connect the female end of the wire to the pin labeled GND and the male end of the wire to the - column on the far right of the solderless breadboard (above the wire connected to the Pi’s Ground pin).</li>
+                        <li>For the third wire, connect the female end of the wire to the pin labeled OUT and the male end of the wire to row 30, column f (the same row as the wire going to GPIO 21).</li></ul></li></ul>
+
+                    <h4>Set up the Software</h4>
+                        <ul><li>We will create a simple python program to display sensor data coming from the PIR sensor!</li>
+                        <li>Type nano pir_sensor.py and hit enter.</li>
+                        <li>Either copy and paste or type out the following program:</li>
+                            {% gist rjulian/f5a961e72b9b493ebf9aeedb5973687f %}
+                        <li>When finished, type CTRL+X and Y and then Enter to save the program and exit.</li>
+                        <li>To run our program, type python pir_sensor.py and the sensor should react when motion is detected in front of it!</li>
+                        <li>Congratulations! You have successfully completed a sensor project with the Raspberry Pi!</li>
+                            </ul>
+
+                    <a href="/modules/raspberry_pi_beginner/connect_to_pi.html" style="padding-right:15px"><- Return: Connecting to Raspberry Pi</a>
+
+
+
+                </section>
+            </div>
+        </div>
+</section>

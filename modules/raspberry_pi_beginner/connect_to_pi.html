@@ -1,0 +1,70 @@
+---
+title: Raspberry Pi Beginner Module
+layout: default
+description: MakerHQ has a module box that includes a raspberry pi and all of the tools needed to get up and running. This is the guide for those tools
+---
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>Getting Started with the <span style="color:red">Raspberry Pi</span></h2>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="12u skel-cell-important">
+                <section>
+                    <h2>A Self Learning Guide to the Raspberry Pi</h2>
+                    <img src="/images/raspberry-pi-logo.png" style="float:right;width:15%;height:15%">
+                    <h2>Raspberry Pi Install and Connection</h2>
+                    <img src="/images/modules/raspberry_pi_beginner/ethernet_connect.jpg" width="200px" style="float:right">
+
+                    <h4>Write Operating System Image to SD Card</h4>
+                    <ul>
+                        <li>Raspberrypi.org has great resources for writing the Raspbian image file to an SD card.
+                            <ul style="margin-bottom:0px"><li>For Windows users, <a href="https://www.raspberrypi.org/documentation/installation/installing-images/windows.md">https://www.raspberrypi.org/documentation/installation/installing-images/windows.md</a></li>
+                                <li>For Mac users, <a href="https://www.raspberrypi.org/documentation/installation/installing-images/mac.md">https://www.raspberrypi.org/documentation/installation/installing-images/mac.md</a></li>
+                                <li>For Linux users, <a href="https://www.raspberrypi.org/documentation/installation/installing-images/linux.md">https://www.raspberrypi.org/documentation/installation/installing-images/linux.md</a></li></ul></li>
+                        <li>Insert the MicroSD Card into the Raspberry Pi</li>
+                    </ul>
+                    <h4>Connect to the Network</h4>
+                    <ul>
+                        <li>Connect the ethernet cable on one end into the Raspberry Pi and on the other end into the wireless router.</li>
+                    <li>Power on the Raspberry Pi by plugging in the micro USB power supply to the wall.</li>
+                    <li><b>If you have access to your router firmware</b>, log in and look for something like Client List or “DHCP Client List”, find the <b>IP Address</b> next to the name “raspberrypi”</li>
+                    <li><b>If you do not have access to your router firmware</b>, either contact someone who has access to the router admin settings to tell you what the most recent Raspberry Pi host’s <b>IP Address</b> is (tell them it will be listed in the DHCP Client List) OR try doing some host discovery work on the network using the following resources:
+                    <ul><li><a href="http://raspberrypi.stackexchange.com/questions/13936/find-raspberry-pi-address-on-local-network">http://raspberrypi.stackexchange.com/questions/13936/find-raspberry-pi-address-on-local-network</a></li>
+                    <li><a href="https://www.raspberrypi.org/documentation/remote-access/ip-address.md">https://www.raspberrypi.org/documentation/remote-access/ip-address.md</a></li></ul></li></ul>
+
+                    <h4>Connect to the Pi</h4>
+                    <img src="/images/modules/raspberry_pi_beginner/ssh_connect_pi.png" width="800px">
+                    <ul>
+                        <li>Using the <b>ip address</b> found for the Pi, connect using your ssh client (for Windows, using PuTTY) with <b>pi</b> as the username and <b>raspberry</b> as the password.</li>
+                    <li>Once successfully connected, test internet connectivity by typing <b>ping -c 5 8.8.8.8</b> and pressing enter. If the output shows no response or not connected, check your internet connection for the router and restart as needed.</li>
+                    <li><b>Congratulations</b>, you’ve successfully connected to the Raspberry Pi 3 headlessly.</li>
+                        </ul>
+
+                    <h2>Raspberry Pi Wireless Connection</h2>
+                    <ul>
+                        <li>To begin, it’s good to update the system. Type in sudo apt-get update && sudo apt-get -y upgrade and press Enter. This may take some time, depending on how old the operating system image is.</li>
+                    <li>Next, let’s set our wireless country to be the US (rather than the default of UK). type sudo raspi-config and press Enter. This will launch you into a menu, where you navigate with the arrow keys and select with ‘Enter’. Select Internationalisation Options and then Change Wi-fi Country and then scroll to US (or, type u and it’ll take you to the U options) and hit Enter. Now, scroll down and select Finish. When it asks you Would you like to reboot now?, select No.</li>
+                    <li>We now need to tell the Pi what wireless network to connect to, so let’s type sudo nano /etc/wpa_supplicant/wpa_supplicant.conf. At the bottom of the file, type (or copy and paste) in the following, changing out the capitalized words for your actual network name and password
+                    <ul style="margin-bottom:0px"><li><code>network={<br>
+                    ssid="YOUR_NETWORK_NAME"<br>
+                    psk="YOUR_NETWORK_PASSWORD"<br>
+                    }</code></li></ul></li>
+                    <li>Type CTRL+X  and then Y and then Enter to save changes and exit the file.</li>
+                    <li>We will now reboot, which will allow the Raspberry Pi to connect to the network again, this time over wireless! This will cause our Raspberry Pi to get a new IP address. We will need to once again find the IP address, just as we did before. Reboot the system by typing sudo reboot (which should quickly log you out of the shell).</li>
+                    <li>After a minute or so, attempt to ssh into the pi with its new ip address using the same default username and password from before. If, for whatever reason, a new IP address isn’t appearing or you can’t get in, simply plug the ethernet cable in and you should be able to SSH in using the old IP Address.</li>
+                    <li>If successful, Congrats! You have a wirelessly connected Raspberry Pi!</li></ul>
+
+                   
+                    <a href="/modules/raspberry_pi_beginner/index.html" style="padding-right:15px"><- Return: Getting Started</a>
+                    <a href="/modules/raspberry_pi_beginner/gpio_setup.html">Continue: Getting started with Sensors -></a>
+
+
+
+
+                </section>
+            </div>
+        </div>
+</section>
