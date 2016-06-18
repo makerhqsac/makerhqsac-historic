@@ -12,19 +12,6 @@
 		reset: 'full',
 		breakpoints: {
 			
-			// Global.
-				global: {
-					range: '*',
-					href: '{{ site.baseurl }}/css/style.css',
-					containers: 1400,
-					grid: {
-						gutters: {
-							vertical: '4em',
-							horizontal: 0
-						}
-					}
-				},
-
 			// XLarge.
 				xlarge: {
 					range: '-1680',
