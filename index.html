@@ -19,7 +19,6 @@ layout: landing-page
 				for (var i = 0; i < r.items.length; i++) {
 					var item = r.items[i];
 					var start = new Date(item.start.dateTime);
-					console.dir(item);
 					$('#nextup'+i).removeClass('hide');
 					$('#nextup'+i+' .event-date').html(start.toLocaleString());
 					$('#nextup'+i+' .event-title').html(item.summary);
