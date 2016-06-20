@@ -11,7 +11,7 @@ Then there are the <a href="https://www.thingiverse.com/thing:1618348">MakerHQ c
 
 We've recently launched our 3D Printer meetup and you can check out any 3D Printing events on the <a href="http://www.meetup.com/Sacramento-Open-Hardware/">Sacramento Open Hardware</a> meetup! As always, our 3D Printers are available to use for our members and during project builds!
 
-Questions, comments, concerns? <a href="http://community.makerhq.org/t/makerhq-iphone6-case/">Discuss this post on our forum.</a>
+Questions, comments, concerns? <a href="http://community.makerhq.org/t/sharing-prints-on-thingiverse/">Discuss this post on our forum.</a>
 
 <div id='discourse-comments'></div>
 
