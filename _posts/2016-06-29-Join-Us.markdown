@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Join and Build With Us"
+---
+<img src="{{ site.baseurl }}/images/weareopen_blog.jpg" class="image" style="margin: 0 auto; display: block; width:45%">
+<span id="hq">O</span>ur equipment is running, our projects are in full swing, our doors are open here at MakerHQ!
+
+Our physical space has been in existence for just under two months and we've been working hard to get all of our equipment up and running, our workstations stocked and sorted, and our outreach mission started and rolling. We now welcome the community to join us as members in order to support our mission, utilize our equipment and resources, and, most importantly, collaborate and create!
+
+When Makers come together, a whole slew of possibilities open up. We believe that by growing our group, we can not only show off what is happening in Sacramento's technology, education, and arts scene, but we can also work together to really move the scene forward and show that we, too can do forward thinking projects and newsworthy achievements!
+
+[Joining MakerHQ](https://billing.makerhq.org/join) is the most surefire way to support our organization, its goals, and the community in general. If you identify with [our mission](http://www.makerhq.org/about) and want to get involved with the community, you can start by joining as a member and working with us on projects, [hosting meetups](http://www.meetup.com/Sacramento-Open-Hardware/), and running events!
+
+Come join us to...
+
+  * build the next big Internet of Things device
+  * 3D print incredibly detailed character models
+  * work on a mesh networking protocol
+  * laser cut your favorite still image from a movie
+  * [hack all of the smart lights in the space](http://www.makerhq.org/2016/06/23/Raspberry-Pi-and-Philips-Hue.html)
+  * take old electronics and add a single board computer to them
+  * create your own cell phone
+  * or whatever Maker project your heart desires.
+
+
+
+The doors are open, we're ready for <span id="hq">you</span>.
+
+Questions, comments, concerns? <a href="http://community.makerhq.org/t/join-and-build-with-us/">Discuss this post on our forum.</a>
+
+<div id='discourse-comments'></div>
+
+<script type="text/javascript">
+  DiscourseEmbed = { discourseUrl: 'http://community.makerhq.org/',
+                     topicId: 73 };
+
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>

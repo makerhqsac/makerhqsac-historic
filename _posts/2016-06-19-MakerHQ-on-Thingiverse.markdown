@@ -1,9 +1,10 @@
 ---
 layout: post
+description: "We've been spending some of our time at MHQ doing 3D design and printing all the things! We have swag for you to print at home!"
 title: "Sharing Prints on Thingiverse"
 ---
 <img src="{{ site.baseurl }}/images/3d_thingiverse.jpg" class="image" style="margin: 0 auto; display: block;">
-We've been focused on designing objects to inspire and awe over here at MHQ. As always, we're making our designs available to the general public, so that they too can become excited about what they can design and print with a 3D Printer.
+<span id="hq">W</span>e've been focused on designing objects to inspire and awe over here at MHQ. As always, we're making our designs available to the general public, so that they too can become excited about what they can design and print with a 3D Printer.
 
 Member Bill Betz has been working on his incredible <a href="https://www.thingiverse.com/thing:1618276">Cuzbot</a>. This little robot is printed in a way that allows its joints to be moved, somewhat similar to a modeling doll! They make incredible gifts and the base design will allow you to customize the doll and create all sorts of variations!
 
