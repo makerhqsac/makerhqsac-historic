@@ -857,6 +857,28 @@
 				background-color: #008e11;
 			}
 
+input[type="submit"].special2,
+input[type="reset"].special2,
+input[type="button"].special2,
+.button.special2 {
+	background-color: #007a8e;
+	color: #ffffff !important;
+}
+
+input[type="submit"].special2:hover,
+input[type="reset"].special2:hover,
+input[type="button"].special2:hover,
+.button.special2:hover {
+	background-color: #0bc4e3;
+}
+
+input[type="submit"].special2:active,
+input[type="reset"].special2:active,
+input[type="button"].special2:active,
+.button.special2:active {
+	background-color: #007a8e;
+}
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
