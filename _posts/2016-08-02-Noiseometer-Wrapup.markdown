@@ -7,7 +7,7 @@ title: "Project Noiseometer: Wrap-up and Moving Forward"
 
 The project idea started with the majority of us living in the somewhat dense Midtown, Sacramento neighborhood, where there are corridors plagued by incessant noise pollution. This can come in the form of loud, fast one way streets that host vehicles with modifications to increase noise generation or it can come from the ever constant construction occuring Downtown. Regardless, we noticed that absolutely no one was collecting, plotting, and analyzing this sound data to better educate civic leaders of the potential problem of noise pollution.
 
-At MakerHQ, we're huge fans of getting our hands on raw data. Despite searching, we could not find any current, context-rich datasets put out by the city for noise pollution. So, we decided to collect the data ourselves using the Arduino MKR1000, sound sensors, and the infrastructure already in use by the internet of things devices that are growing in popularity.
+At MakerHQ, we're huge fans of getting our hands on raw data. Despite searching, we could not find any current, context-rich datasets put out by the city for noise pollution. So, we decided to collect the data ourselves using the Arduino MKR1000, sound sensors, and the infrastructure already in use by the internet of things devices that are growing in popularity. A lot of the education materials and resources that we used in this project can be found on <a href="http://community.makerhq.org/t/project-noiseometer-noise-pollution-grapher/">our forum post for the project.</a>
 
 <img src="{{ site.baseurl }}/images/noiseometer_breadboard.jpg" class="image" style="margin: 0 auto; display: block; width:45%">
 
@@ -30,7 +30,7 @@ Questions, comments, concerns? <a href="http://community.makerhq.org/t/join-and-
 
 <script type="text/javascript">
   DiscourseEmbed = { discourseUrl: 'http://community.makerhq.org/',
-                     topicId: 73 };
+                     topicId: 86 };
 
   (function() {
     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
