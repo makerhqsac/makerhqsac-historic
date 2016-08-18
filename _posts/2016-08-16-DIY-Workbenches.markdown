@@ -2,7 +2,7 @@
 layout: post
 title: "DIY: Makerspace Workbenches"
 ---
-<img src="{{ site.baseurl }}/images/workbenches.jpg" class="image" style="margin: 0 auto; display: block; width:45%">
+<img src="{{ site.baseurl }}/images/filtered_table.jpg" class="image" style="margin: 0 auto; display: block; width:45%">
 <span id="hq">O</span>ne item that is essential to a good fabrication space is a good workbench. We feel that making them yourselves is by far the smartest option!
 
 When you create a makerspace, you need workbenches and tables. If you are in a hurry, you might buy them at big box retailers (gag!), but it's so expensive and generally not high quality.
