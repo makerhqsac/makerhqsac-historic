@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "DIY: Makerspace Workbenches"
+title: "DIY: Makerspace Standing Work Tables"
 ---
 <img src="{{ site.baseurl }}/images/filtered_table.jpg" class="image" style="margin: 0 auto; display: block; width:45%">
-<span id="hq">O</span>ne item that is essential to a good fabrication space is a good workbench. We feel that making them yourselves is by far the smartest option!
+<span id="hq">O</span>ne item that is essential to a good fabrication space is good tables. We feel that making them yourselves is by far the smartest option!
 
 When you create a makerspace, you need workbenches and tables. If you are in a hurry, you might buy them at big box retailers (gag!), but it's so expensive and generally not high quality.
 I decided that we would build our own. I ended up building 8 workbenches and 2 standing tables for the space, and 2 special workbenches for my garage.
@@ -60,7 +60,7 @@ The top of the table should extend 4 inches beyond the legs on all sides. Set it
 
 That’s a Standing Table!
 I sanded off all of the sharp edges, it’s the least you can do for your fellow makers. I also put 3 coats of Varathane on top, making it pretty, smooth and fluid resistant. Added a shelf on the lower braces, another piece of 3/4 plywood..
-Plus, I added adjustable slides on the bottom of each leg. Drill a hole, hammer it in. They allow you to make the workbench flat, even if you cut one leg too short.
+Plus, I added adjustable slides on the bottom of each leg. Drill a hole, hammer it in. They allow you to make the high table flat, even if you cut one leg too short.
 
 Optionally, you can build this entirely out of redwood. It doesn’t cost that much more and looks better. I also built one with no bolt heads showing by cutting all of the braces at 45 degrees, bolting them together with the bolt head sunk into the end of the long braces, and then bolting the braces to the legs on the inside.
 
