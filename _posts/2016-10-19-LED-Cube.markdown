@@ -5,11 +5,11 @@ title: "Featured at MHQ: Light23's LED Cube"
 <video class="image" style="width: 45%;margin: auto;display: block;" poster="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s640x640/e15/14063344_969827253128706_1628487912_n.jpg" autoplay src="https://scontent-lga3-1.cdninstagram.com/t50.2886-16/14175389_348590778805614_220002152_n.mp4" type="video/mp4" loop=""></video>
 <span id="hq">W</span>e end up working on many projects at our space, but very few have the wow factor of <a href="http://light23.com">Light23</a>'s humongous LED Cube chandelier. 
 
-MakerHQ member Chris Biddle has put in countless hours of work on this incredible open source project. The 16 by 16 LED Cube is made up of 4096 individually soldered LEDs and is powered by nine Arduino unos. Chris has been hard at work creating the individual animations and software optimizations that result in the cube's agile development! Recently, the LED Cube was featured at Sacramento's inaugural "Diner En Blanc" event next to the new arena: 
+MakerHQ member Chris Biddle has put in countless hours of work on this incredible open source project. The 16 by 16 LED Cube is made up of 4096 individually soldered LEDs and is powered by nine Arduino Megas. Chris has been hard at work creating the individual animations and software optimizations that result in the cube's agile development! Recently, the LED Cube was featured at Sacramento's inaugural "Diner En Blanc" event next to the new arena: 
 
 <iframe style="display: block;margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/g311r1DWYAc" frameborder="0" allowfullscreen></iframe>
 
-The ultimate goal of the LED cubes by <a href="http://light23.com">Light23</a> is to promote the LED Cube as an educational platform. Chris hopes that by selling or leasing the cubes, there will be more exposure to the creative possibilities for programming the cube. He sees applications for the cube in areas such as gaming, 3D modeling, statistical represenations, and advertising. 
+The ultimate goal of the LED cubes by <a href="http://light23.com">Light23</a> is to promote the LED Cube as an educational platform. Chris hopes that by selling or leasing the cubes, there will be more exposure to the creative possibilities for programming the cube. He sees applications for the cube in areas such as gaming, 3D modeling, statistical representations, and advertising. 
 
 <img src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/13277582_1765137013772547_818300560_n.jpg" style="display: block;margin: auto; width:35%">
 
