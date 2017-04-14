@@ -12,9 +12,8 @@ markdown: kramdown
 
 gems:
   - jekyll-gist
+  - jekyll-redirect-from
 
 
 # Ignore non-website content
 exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE.txt', 'CNAME']
-
-
