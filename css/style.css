@@ -945,7 +945,7 @@ input[type="button"].special2:active,
 		background: #fff;
 		color: #000000;
 		cursor: default;
-		height: 3em;
+		height: 4em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -964,7 +964,7 @@ input[type="button"].special2:active,
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
+			top: .5em;
 		}
 
 			#header h1 a {
