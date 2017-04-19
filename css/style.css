@@ -21,8 +21,6 @@
 	max-height:48px;
 	position: relative;
 	padding:1px;
-	top: 50%;
-	transform: 			translateY(-50%);
 }
 
 #landing-back {
@@ -989,6 +987,7 @@ input[type="button"].special2:active,
 				#header nav > ul > li {
 					border-radius: 6px;
 					display: inline-block;
+					margin-top: 0.5em;
 					margin-left: 2em;
 					padding-left: 0;
 				}
