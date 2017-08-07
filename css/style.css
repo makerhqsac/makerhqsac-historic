@@ -21,8 +21,6 @@
 	max-height:48px;
 	position: relative;
 	padding:1px;
-	top: 50%;
-	transform: 			translateY(-50%);
 }
 
 #landing-back {
@@ -945,7 +943,7 @@ input[type="button"].special2:active,
 		background: #fff;
 		color: #000000;
 		cursor: default;
-		height: 3em;
+		height: 4em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -964,7 +962,7 @@ input[type="button"].special2:active,
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
+			top: .5em;
 		}
 
 			#header h1 a {
@@ -989,6 +987,7 @@ input[type="button"].special2:active,
 				#header nav > ul > li {
 					border-radius: 6px;
 					display: inline-block;
+					margin-top: 0.5em;
 					margin-left: 2em;
 					padding-left: 0;
 				}
