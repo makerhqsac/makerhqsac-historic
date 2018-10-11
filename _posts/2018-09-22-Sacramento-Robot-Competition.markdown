@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Sacramento Robot Competition"
+title: "Norcal RoboRumble 2019"
 ---
-<span id="hq">M</span>akerHQ is pleased to announce Sacramento Robot Competition 2018 on **December 8th, 2018**.
+<span id="hq">M</span>akerHQ is pleased to announce Sacramento Robot Competition 2019 on **January 20th, 2019**.
 
 This event will include:
 * Robo Sumo
