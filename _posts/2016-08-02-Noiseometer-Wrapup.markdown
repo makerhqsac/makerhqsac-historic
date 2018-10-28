@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Project Noiseometer: Wrap-up and Moving Forward"
+date: ""
 ---
 <img src="{{ site.baseurl }}/images/cat_noiseometer_filter_crop.jpg" class="image" style="margin: 0 auto; display: block; width:45%">
 <span id="hq">W</span>e began our first community project build just about a month ago with the making of a sleek noise pollution data collection device, dubbed "Project Noiseometer".
